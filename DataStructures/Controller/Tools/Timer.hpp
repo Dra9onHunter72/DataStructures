@@ -9,7 +9,7 @@
 #ifndef Timer_hpp
 #define Timer_hpp
 
-#include <time.h>
+#include <Tools/time.h>
 #include <assert.h>
 #include <iostream>
 
