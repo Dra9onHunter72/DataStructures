@@ -28,7 +28,7 @@ void Timer :: startTimer()
 void Timer :: stopTimer()
 {
     assert(executeTime != 0);
-    executeTime = clock() - executeTime
+    executeTime = clock() - executeTime;
 }
 
 void Timer :: displayInformation()
@@ -39,5 +39,5 @@ void Timer :: displayInformation()
 
 long Timer :: getTimeInMicroseconds()
 {
-    return executeTime
+    return executeTime;
 }

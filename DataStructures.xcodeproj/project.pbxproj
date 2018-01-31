@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7BDD6A3B202243F40022239B /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD6A39202243F40022239B /* Runner.cpp */; };
-		7BDD6A44202244C00022239B /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD6A42202244C00022239B /* Controller.cpp */; };
 		7BDD6A472022470F0022239B /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD6A452022470F0022239B /* Timer.cpp */; };
+		7BDD6A4A20224DED0022239B /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD6A4820224DED0022239B /* Controller.cpp */; };
+		7BDD6A4D202250160022239B /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD6A4B202250160022239B /* CrimeData.cpp */; };
+		7BDD6A51202253AD0022239B /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD6A4F202253AD0022239B /* FileController.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,10 +29,15 @@
 /* Begin PBXFileReference section */
 		7BDD6A2F202243430022239B /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDD6A39202243F40022239B /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
-		7BDD6A42202244C00022239B /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
-		7BDD6A43202244C00022239B /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		7BDD6A452022470F0022239B /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		7BDD6A462022470F0022239B /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		7BDD6A4820224DED0022239B /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
+		7BDD6A4920224DED0022239B /* Controller.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
+		7BDD6A4B202250160022239B /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
+		7BDD6A4C202250160022239B /* CrimeData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CrimeData.hpp; sourceTree = "<group>"; };
+		7BDD6A4E202250440022239B /* crime.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = crime.csv; sourceTree = "<group>"; };
+		7BDD6A4F202253AD0022239B /* FileController.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FileController.cpp; sourceTree = "<group>"; };
+		7BDD6A50202253AD0022239B /* FileController.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FileController.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +90,9 @@
 		7BDD6A3D2022440F0022239B /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				7BDD6A4E202250440022239B /* crime.csv */,
+				7BDD6A4B202250160022239B /* CrimeData.cpp */,
+				7BDD6A4C202250160022239B /* CrimeData.hpp */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -90,6 +100,10 @@
 		7BDD6A3E202244180022239B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7BDD6A4F202253AD0022239B /* FileController.cpp */,
+				7BDD6A50202253AD0022239B /* FileController.hpp */,
+				7BDD6A4820224DED0022239B /* Controller.cpp */,
+				7BDD6A4920224DED0022239B /* Controller.hpp */,
 				7BDD6A412022449E0022239B /* Tools */,
 			);
 			path = Controller;
@@ -112,8 +126,6 @@
 		7BDD6A412022449E0022239B /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				7BDD6A42202244C00022239B /* Controller.cpp */,
-				7BDD6A43202244C00022239B /* Controller.hpp */,
 				7BDD6A452022470F0022239B /* Timer.cpp */,
 				7BDD6A462022470F0022239B /* Timer.hpp */,
 			);
@@ -177,9 +189,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BDD6A4D202250160022239B /* CrimeData.cpp in Sources */,
 				7BDD6A472022470F0022239B /* Timer.cpp in Sources */,
+				7BDD6A51202253AD0022239B /* FileController.cpp in Sources */,
+				7BDD6A4A20224DED0022239B /* Controller.cpp in Sources */,
 				7BDD6A3B202243F40022239B /* Runner.cpp in Sources */,
-				7BDD6A44202244C00022239B /* Controller.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
