@@ -19,8 +19,14 @@ void Controller :: start()
     codeTimer.displayInformation();
     codeTimer.resetTimer();
     codeTimer.startTimer();
-    for (int index = 0;index < 50000; index++)
+   
+    vector<CrimeData> myData = FileController :: readCrimeDataToVector("/Users/abur9000/Documents/CS 2420/DataStructures/DataStructures/Data/crime.csv");
+    
+    for (int index = 200; index < 216; index ++)
     {
-        cout << "  " <<index;
+        cout << index << " is " << myData[index] << endl;
     }
+    
+    codeTimer.stopTimer();
+    codeTimer.displayInformation();
 }
