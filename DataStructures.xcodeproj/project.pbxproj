@@ -113,7 +113,7 @@
 		7BDD6A3F202244220022239B /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				7BEF2FF02024F24A00FEB4FA /* Array.hpp */,
+				7BEF2FF22025023400FEB4FA /* Structure */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -132,6 +132,14 @@
 				7BDD6A462022470F0022239B /* Timer.hpp */,
 			);
 			path = Tools;
+			sourceTree = "<group>";
+		};
+		7BEF2FF22025023400FEB4FA /* Structure */ = {
+			isa = PBXGroup;
+			children = (
+				7BEF2FF02024F24A00FEB4FA /* Array.hpp */,
+			);
+			path = Structure;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

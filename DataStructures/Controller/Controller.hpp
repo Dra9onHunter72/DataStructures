@@ -13,11 +13,13 @@
 #include <vector>
 #include "Tools/Timer.hpp"
 #include "FileController.hpp"
+#include "../Model/Structure/Array.hpp"
 
 class Controller
 {
 private:
     void findMaxAndMin();
+    void testArray();
 public:
     void start();
 };
