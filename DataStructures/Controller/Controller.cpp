@@ -47,5 +47,10 @@ void Controller :: findMaxAndMin()
 
 void Controller :: testArray()
 {
+    Array<int> codyArray(45);
     
+    codyArray[0] = 123;
+    codyArray.setAtIndex(0, 321);
+    
+    cout << codyArray[0] << endl;
 }
