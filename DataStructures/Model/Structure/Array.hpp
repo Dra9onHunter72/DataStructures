@@ -103,7 +103,8 @@ public:
         assert(index >= 0 && index < size);
         return internalArray[index];
     }
-    
+
+    //#Basic
     template <class Type>
     int Array<Type> :: getSize() const
     {
