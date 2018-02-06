@@ -105,11 +105,11 @@
 		7BDD6A3E202244180022239B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7BDD6A412022449E0022239B /* Tools */,
 				7BDD6A4F202253AD0022239B /* FileController.cpp */,
 				7BDD6A50202253AD0022239B /* FileController.hpp */,
 				7BDD6A4820224DED0022239B /* Controller.cpp */,
 				7BDD6A4920224DED0022239B /* Controller.hpp */,
-				7BDD6A412022449E0022239B /* Tools */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
