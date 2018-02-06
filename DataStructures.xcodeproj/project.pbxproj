@@ -42,6 +42,7 @@
 		7BEF2FF02024F24A00FEB4FA /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		7BF727A8202A33B600FE3AFE /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
 		7BF727A9202A33B600FE3AFE /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
+		7BF727AE202A419000FE3AFE /* Node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Node.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +118,7 @@
 		7BDD6A3F202244220022239B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				7BF727AD202A417000FE3AFE /* Nodes */,
 				7BEF2FF22025023400FEB4FA /* Structure */,
 			);
 			path = Model;
@@ -153,6 +155,14 @@
 				7BF727A9202A33B600FE3AFE /* ArrayTester.hpp */,
 			);
 			path = Testers;
+			sourceTree = "<group>";
+		};
+		7BF727AD202A417000FE3AFE /* Nodes */ = {
+			isa = PBXGroup;
+			children = (
+				7BF727AE202A419000FE3AFE /* Node.h */,
+			);
+			path = Nodes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
