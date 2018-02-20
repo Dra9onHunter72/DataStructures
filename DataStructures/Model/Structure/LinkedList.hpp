@@ -104,6 +104,23 @@ void LinkedList<Tyope> :: addAtIndex(int index, Type item)
     }
 }
 
+Type LinkedList<Type> :: getFromIndex(int index)
+{
+    assert(index >= 0 && index < this->size);
+    Type data;
+    
+    LinearNode<Type> * current = front;
+    
+    for (int position = 0; position < index; position++)
+    {
+        current = current->getNextNode();
+    }
+    
+    data = current->getData();
+    
+    return data;
+}
+
 Type LinkedList<Type> :: remove(int index)
 {
     assert(index >= 0 && index < this->size);
