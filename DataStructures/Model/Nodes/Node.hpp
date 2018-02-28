@@ -26,7 +26,7 @@ template <class Type>
 Node<Type> :: Node()
 {
     //Needed for default constructor compilation
-    // Since when we create a structure it does not have an item to stor yet.
+    // Since when we create a structure it does not have an item to store yet.
 }
 
 template <class Type>

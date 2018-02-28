@@ -32,8 +32,10 @@
 		7B140D5A203CBBEB005C50EA /* LinkedListTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListTester.h; sourceTree = "<group>"; };
 		7B25CC5D2034B99100F99B15 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		7B4B6D48202CE26200DB5199 /* AbstractBase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AbstractBase.hpp; sourceTree = "<group>"; };
+		7BD10D352047317A009542AC /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		7BDC211220448FA400270650 /* DoubleNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleNode.h; sourceTree = "<group>"; };
 		7BDC211420449ACE00270650 /* CircularList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularList.h; sourceTree = "<group>"; };
+		7BDC21152044A61000270650 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		7BDD6A2F202243430022239B /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDD6A39202243F40022239B /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
 		7BDD6A452022470F0022239B /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
@@ -66,7 +68,12 @@
 		7BDC211320449A9700270650 /* Linear */ = {
 			isa = PBXGroup;
 			children = (
+				7BEF2FF02024F24A00FEB4FA /* Array.hpp */,
+				7B25CC5D2034B99100F99B15 /* LinkedList.hpp */,
+				7B140D59203CAB25005C50EA /* List.hpp */,
 				7BDC211420449ACE00270650 /* CircularList.h */,
+				7BDC21152044A61000270650 /* Stack.h */,
+				7BD10D352047317A009542AC /* Queue.h */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
@@ -159,10 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				7BDC211320449A9700270650 /* Linear */,
-				7BEF2FF02024F24A00FEB4FA /* Array.hpp */,
 				7B4B6D48202CE26200DB5199 /* AbstractBase.hpp */,
-				7B25CC5D2034B99100F99B15 /* LinkedList.hpp */,
-				7B140D59203CAB25005C50EA /* List.hpp */,
 			);
 			path = Structure;
 			sourceTree = "<group>";
