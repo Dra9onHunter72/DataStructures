@@ -9,7 +9,7 @@
 #ifndef Header_hpp
 #define Header_hpp
 
-#include "Node.h"
+#include "Node.hpp"
 
 template <class Type>
 class LinearNode : public Node<Type>
@@ -23,7 +23,7 @@ public:
     LinearNode(Type data);
     LinearNode(Type data, LinearNode<Type> * next);
     //Methods
-    void setnextNode(LinearNode<Type> * next);
+    void setNextNode(LinearNode<Type> * next);
     LinearNode<Type> * getNextNode();
 };
 

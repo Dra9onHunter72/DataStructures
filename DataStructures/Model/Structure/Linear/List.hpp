@@ -10,9 +10,10 @@
 #define List_hpp
 
 #include <assert.h>
-#include "/Users/abur9000/Documents/CS 2420/DataStructures/DataStructures/Model/Nodes/Node.hpp"
+#include "../../Nodes/LinearNode.hpp"
 
-class List()
+template <class Type>
+class List
 {
 protected:
     int size;
