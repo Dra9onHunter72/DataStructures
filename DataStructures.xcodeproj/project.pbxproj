@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7BD10D38204742E3009542AC /* TestingStacksAndQueues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BD10D36204742E3009542AC /* TestingStacksAndQueues.cpp */; };
+		7BD10D3B20474552009542AC /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BD10D3920474552009542AC /* Timer.cpp */; };
 		7BDD6A3B202243F40022239B /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD6A39202243F40022239B /* Runner.cpp */; };
-		7BDD6A472022470F0022239B /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD6A452022470F0022239B /* Timer.cpp */; };
 		7BDD6A4A20224DED0022239B /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD6A4820224DED0022239B /* Controller.cpp */; };
 		7BDD6A4D202250160022239B /* CrimeData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD6A4B202250160022239B /* CrimeData.cpp */; };
 		7BDD6A51202253AD0022239B /* FileController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BDD6A4F202253AD0022239B /* FileController.cpp */; };
@@ -36,13 +36,13 @@
 		7BD10D352047317A009542AC /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
 		7BD10D36204742E3009542AC /* TestingStacksAndQueues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestingStacksAndQueues.cpp; sourceTree = "<group>"; };
 		7BD10D37204742E3009542AC /* TestingStacksAndQueues.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestingStacksAndQueues.hpp; sourceTree = "<group>"; };
+		7BD10D3920474552009542AC /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		7BD10D3A20474552009542AC /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		7BDC211220448FA400270650 /* DoubleNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleNode.h; sourceTree = "<group>"; };
 		7BDC211420449ACE00270650 /* CircularList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularList.h; sourceTree = "<group>"; };
 		7BDC21152044A61000270650 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
 		7BDD6A2F202243430022239B /* DataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BDD6A39202243F40022239B /* Runner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Runner.cpp; sourceTree = "<group>"; };
-		7BDD6A452022470F0022239B /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
-		7BDD6A462022470F0022239B /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
 		7BDD6A4820224DED0022239B /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		7BDD6A4920224DED0022239B /* Controller.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
 		7BDD6A4B202250160022239B /* CrimeData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CrimeData.cpp; sourceTree = "<group>"; };
@@ -159,8 +159,8 @@
 		7BDD6A412022449E0022239B /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				7BDD6A452022470F0022239B /* Timer.cpp */,
-				7BDD6A462022470F0022239B /* Timer.hpp */,
+				7BD10D3920474552009542AC /* Timer.cpp */,
+				7BD10D3A20474552009542AC /* Timer.hpp */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -254,11 +254,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				7BDD6A4D202250160022239B /* CrimeData.cpp in Sources */,
-				7BDD6A472022470F0022239B /* Timer.cpp in Sources */,
 				7BD10D38204742E3009542AC /* TestingStacksAndQueues.cpp in Sources */,
 				7BDD6A51202253AD0022239B /* FileController.cpp in Sources */,
 				7BDD6A4A20224DED0022239B /* Controller.cpp in Sources */,
 				7BF727AA202A33B600FE3AFE /* ArrayTester.cpp in Sources */,
+				7BD10D3B20474552009542AC /* Timer.cpp in Sources */,
 				7BDD6A3B202243F40022239B /* Runner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

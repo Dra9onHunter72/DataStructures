@@ -2,7 +2,7 @@
 //  Timer.hpp
 //  DataStructures
 //
-//  Created by Burr, Alan on 1/31/18.
+//  Created by Burr, Alan on 2/28/18.
 //  Copyright © 2018 CTEC. All rights reserved.
 //
 
@@ -16,7 +16,7 @@
 class Timer
 {
 private:
-    clock_t executeTime;
+    clock_t executionTime;
     
 public:
     Timer();

@@ -2,7 +2,7 @@
 //  Timer.cpp
 //  DataStructures
 //
-//  Created by Burr, Alan on 1/31/18.
+//  Created by Burr, Alan on 2/28/18.
 //  Copyright © 2018 CTEC. All rights reserved.
 //
 
@@ -12,32 +12,32 @@ using namespace std;
 
 Timer :: Timer()
 {
-    executeTime = 0;
+    executionTime = 0;
 }
 
 void Timer :: resetTimer()
 {
-    executeTime = 0;
+    executionTime = 0;
 }
 
 void Timer :: startTimer()
 {
-    executeTime = clock();
+    executionTime = clock();
 }
 
 void Timer :: stopTimer()
 {
-    assert(executeTime != 0);
-    executeTime = clock() - executeTime;
+    assert(executionTime != 0);
+    executionTime = clock() - executionTime;
 }
 
 void Timer :: displayInformation()
 {
-    cout << "The execution time is: " << executeTime << endl;
-    cout << "In human time it is " << double (executeTime)/CLOCKS_PER_SEC << " seconds" << endl;
+    cout << "The execution time is: " << executionTime << endl;
+    cout << "In human time it is " << double (executionTime)/CLOCKS_PER_SEC << " seconds" << endl;
 }
 
 long Timer :: getTimeInMicroseconds()
 {
-    return executeTime;
+    return executionTime;
 }
