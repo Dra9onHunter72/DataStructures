@@ -15,6 +15,9 @@
 #include "FileController.hpp"
 #include "../Model/Structure/Linear/Array.hpp"
 #include "../Testers/ArrayTester.hpp"
+#include "/Users/abur9000/Documents/CS 2420/DataStructures/DataStructures/Testers/LinkedListTester.h"
+#include "/Users/abur9000/Documents/CS 2420/DataStructures/DataStructures/Testers/TestingStacksAndQueues.hpp"
+#include "/Users/abur9000/Documents/CS 2420/DataStructures/DataStructures/Testers/RecursionTester.hpp"
 
 class Controller
 {
