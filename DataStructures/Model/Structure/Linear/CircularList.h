@@ -177,4 +177,6 @@ int CircularList<Type> :: getSize() const
     return this->size;
 }
 
+//I understand that a circular list is a series of pointers in where the last one points to the first one.
+
 #endif /* CircularList_h */
