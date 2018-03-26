@@ -117,8 +117,8 @@ template <class Type>
 void Graph<Type> :: removeEdgeUndirected(int source, int target)
 {
     assert(source >= 0 && source < vertexCount && target >= 0 && target < vertexCount);
-    adjacency[source][target] = false;
-    adjacency[target][source] = false;
+    adjacencyMatrix[source][target] = false;
+    adjacencyMatrix[target][source] = false;
 }
 
 template <class Type>
@@ -155,7 +155,7 @@ void Graph<Type> :: addEdgeUndirected(int source, int target)
 template <class Type>
 bool Graph<Type> :: hasUndirectedConnection(int source, int target) const
 {
-    assert(source >= 0 && source < vertexCount && target >= 0 && target < vertexCount)
+    assert(source >= 0 && source < vertexCount && target >= 0 && target < vertexCount);
     
     bool isAnEdge = false;
     isAnEdge = adjacencyMatrix[source][target] || adjacencyMatrix[target][source] ;
@@ -182,7 +182,7 @@ std::set<int> Graph<Type> :: neighbors(int vertex) const
     
     for(int index = 0; index < vertexCount; index++)
     {
-        if(adjacency[vertex][index])
+        if(adjacencyMatrix[vertex][index])
         {
             vertexNeighbors.insert(index);
         }
@@ -208,7 +208,7 @@ void Graph<Type> :: depthFirstTraversal(Graph<Type> & currentGraph, int vertex, 
     visited[vertex] = true;
     cout << currentGraph[vertex] << ", " << endl;
     
-    for(setIterator = connection.begin(); setIterator != connections.end(); setIterator++)
+    for(setIterator = connections.begin(); setIterator != connections.end(); setIterator++)
     {
         if(!visited[*setIterator])
         {

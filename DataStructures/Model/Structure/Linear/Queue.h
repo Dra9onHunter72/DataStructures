@@ -106,7 +106,7 @@ Type Queue<Type> :: remove(int index)
 }
 
 template <class Type>
-void Queue<Type> :: remove(int index)
+void Queue<Type> :: clear()
 {
     while(this->front != nullptr)
     {
