@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B8C27A2204DC56A00129D6F /* RecursionTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C27A0204DC56A00129D6F /* RecursionTester.cpp */; };
+		7BA36B88206ACA3A00149E9D /* BinaryTreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BA36B86206ACA3A00149E9D /* BinaryTreeTester.cpp */; };
 		7BC08E2B2065732B00493307 /* GraphTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BC08E2A2065732B00493307 /* GraphTester.cpp */; };
 		7BC4205B205AE96500AC47B6 /* SortingTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BC42059205AE96500AC47B6 /* SortingTester.cpp */; };
 		7BD10D38204742E3009542AC /* TestingStacksAndQueues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BD10D36204742E3009542AC /* TestingStacksAndQueues.cpp */; };
@@ -37,9 +38,13 @@
 		7B140D5A203CBBEB005C50EA /* LinkedListTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListTester.h; sourceTree = "<group>"; };
 		7B25CC5D2034B99100F99B15 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		7B4B6D48202CE26200DB5199 /* AbstractBase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AbstractBase.hpp; sourceTree = "<group>"; };
+		7B8191F2206D60A00036C426 /* BinarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearchTree.h; sourceTree = "<group>"; };
 		7B8C27A0204DC56A00129D6F /* RecursionTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RecursionTester.cpp; sourceTree = "<group>"; };
 		7B8C27A1204DC56A00129D6F /* RecursionTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RecursionTester.hpp; sourceTree = "<group>"; };
 		7BA36B85206AC04600149E9D /* BinaryTreeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTreeNode.h; sourceTree = "<group>"; };
+		7BA36B86206ACA3A00149E9D /* BinaryTreeTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeTester.cpp; sourceTree = "<group>"; };
+		7BA36B87206ACA3A00149E9D /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
+		7BA36B89206AD40600149E9D /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tree.h; sourceTree = "<group>"; };
 		7BC08E262065721100493307 /* GraphTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GraphTester.hpp; sourceTree = "<group>"; };
 		7BC08E2A2065732B00493307 /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
 		7BC42059205AE96500AC47B6 /* SortingTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SortingTester.cpp; sourceTree = "<group>"; };
@@ -83,6 +88,8 @@
 			isa = PBXGroup;
 			children = (
 				7B092905206036470078EBE0 /* Graph.h */,
+				7BA36B89206AD40600149E9D /* Tree.h */,
+				7B8191F2206D60A00036C426 /* BinarySearchTree.h */,
 			);
 			path = NonLinear;
 			sourceTree = "<group>";
@@ -208,6 +215,8 @@
 				7BC4205A205AE96500AC47B6 /* SortingTester.hpp */,
 				7BC08E262065721100493307 /* GraphTester.hpp */,
 				7BC08E2A2065732B00493307 /* GraphTester.cpp */,
+				7BA36B86206ACA3A00149E9D /* BinaryTreeTester.cpp */,
+				7BA36B87206ACA3A00149E9D /* BinaryTreeTester.hpp */,
 			);
 			path = Testers;
 			sourceTree = "<group>";
@@ -285,6 +294,7 @@
 				7BDD6A51202253AD0022239B /* FileController.cpp in Sources */,
 				7BC08E2B2065732B00493307 /* GraphTester.cpp in Sources */,
 				7BC4205B205AE96500AC47B6 /* SortingTester.cpp in Sources */,
+				7BA36B88206ACA3A00149E9D /* BinaryTreeTester.cpp in Sources */,
 				7BDD6A4A20224DED0022239B /* Controller.cpp in Sources */,
 				7BF727AA202A33B600FE3AFE /* ArrayTester.cpp in Sources */,
 				7B8C27A2204DC56A00129D6F /* RecursionTester.cpp in Sources */,
