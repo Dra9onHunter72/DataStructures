@@ -23,7 +23,7 @@ protected:
     bool isBalanced(BinaryTreeNode<Type> * startNode);
     bool isComplete(BinaryTreeNode<Type> * startNode, int index, int size);
     
-    void inOrderTraversal(BinaryTreenNode<Type> * inStart);
+    void inOrderTraversal(BinaryTreeNode<Type> * inStart);
     void preOrderTraversal(BinaryTreeNode<Type> * preStart);
     void postOrderTraversal(BinaryTreeNode<Type> * postStart);
     
@@ -44,6 +44,7 @@ public:
     void preOrderTraversal();
     void postOrderTraversal();
     void demoTraversalSteps(BinaryTreeNode<Type> * node);
+    void demo();
     
     int getSize();
     int getHeight();
@@ -59,9 +60,158 @@ public:
 };
 
 template <class Type>
-int calculateSize(BinaryTreeNode<Type> * startNode);
+BinarySearchTree<Type> :: BinarySearchTree()
+{
+    this->root = nullptr;
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: insert(Type itemToInsert)
+{
+    BinaryTreeNode<Type> * insertMe = new BinaryTreeNode<Type>(itemToInsert);
+    BinaryTreeNode<Type> * previous = nullptr;
+    BinaryTreeNode<Type> * current = this->root;
+    
+    if(current == nullptr)
+    {
+        this->root = insertMe;
+    }
+    else
+    {
+        while(current != nullptr)
+        {
+            previous = current;
+            if(itemToInsert < current->getData())
+            {
+                current = current->getLeftNode();
+            }
+            else if(itemToInsert > current->getData())
+            {
+                current = current->getRightNode();
+            }
+            else
+            {
+                cerr << "Item exists already - Exiting insert" << endl;
+                delete insertMe;
+                return;
+            }
+        }
+        
+        if (previous->getData() > itemToInsert)
+        {
+            previous->setLeftNode(insertMe);
+        }
+        else
+        {
+            previous->setRightNode(insertMe);
+        }
+        insertMe->setRootNode(previous);
+    }
+}
+template <class Type>
+BinarySearchTree<Type> :: BinarySearchTree()
+{
+    
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: insert(Type itemToInsert)
+{
+    
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: preOrderTraversal()
+{
+    preOrderTraversal(this->root);
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: postOrderTraversal()
+{
+    postOrderTraversal(this->root);
+}
+
+template <class Type>
+BinarySearchTree<Type> :: ~BinarySearchTree()
+{
+    
+}
+
+template <class Type>
+bool BinarySearchTree<Type> :: contains(Type value)
+{
+    return false;
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: remove(Type item)
+{
+    
+}
+
+template <class Type>
+int BinarySearchTree<Type> :: getHeight()
 {
     return -1;
+}
+
+template <class Type>
+int BinarySearchTree<Type> :: getSize()
+{
+    return -1;
+}
+
+template <class Type>
+bool BinarySearchTree<Type> :: isComplete()
+{
+    return false;
+}
+
+template <class Type>
+bool BinarySearchTree<Type> :: isBalanced()
+{
+    return false;
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: inOrderTraversal()
+{
+    inOrderTraversal(this->root);
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: inOrderTraversal(BinaryTreeNode<Type> * inStart)
+{
+    if(inStart != nullptr)
+    {
+        inOrderTraversal(inStart->getLeftNode());
+        cout << inStart->getData() << endl;
+        inOrderTraversal(inStart->getRightNode());
+    }
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: demo()
+{
+    demoTraversalSteps(this->root);
+}
+
+template <class Type>
+void BinarySearchTree<Type> :: demoTraversalSteps(BinaryTreeNode<Type> * start)
+{
+    if(start != nullptr)
+    {
+        cout << "check if left is here" << endl;
+        demoTraversalSteps(start->getLeftNode());
+        cout << "return to root" << endl;
+        cout << "check if right is here" << endl;
+        demoTraversalSteps(start->getRightNode());
+    }
+    else
+    {
+        cout << "reached nullptr - if on right its back up the recursive call stack" << endl;
+    }
 }
 
 #endif /* BinarySearchTree_h */

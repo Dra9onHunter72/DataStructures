@@ -11,13 +11,14 @@
 
 #include <iostream>
 #include "/Users/abur9000/Documents/CS 2420/DataStructures/DataStructures/Model/Nodes/BinaryTreeNode.h"
+#include "/Users/abur9000/Documents/CS 2420/DataStructures/DataStructures/Model/Structure/NonLinear/BinarySearchTree.h"
 
 class BinaryTreeTester
 {
 private:
-    
+    BinarySearchTree<int> testTree;
 public:
-    
+    void doTreeStuff();
 };
 
 #endif /* BinaryTreeTester_hpp */
