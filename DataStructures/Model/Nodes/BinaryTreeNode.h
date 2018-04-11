@@ -49,19 +49,19 @@ BinaryTreeNode<Type> :: BinaryTreeNode(Type data) : Node<Type>(data)
 }
 
 template <class Type>
-Type BinaryTreeNode<Type> :: getRootNode()
+BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getRootNode()
 {
     return root;
 }
 
 template <class Type>
-Type BinaryTreeNode<Type> :: getLeftNode()
+BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getLeftNode()
 {
     return left;
 }
 
 template <class Type>
-Type BinaryTreeNode<Type> :: getRightNode()
+BinaryTreeNode<Type> * BinaryTreeNode<Type> :: getRightNode()
 {
     return right;
 }

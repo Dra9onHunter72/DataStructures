@@ -117,7 +117,7 @@ void stackVersusQueue()
             cout << "Stack results: " << stackFromQueue.pop() << endl;
             cout << "Queue results: " << queueFromStack.dequeue() << endl;
         }
-}
+    }
         Queue<string> wordQueue;
         LinkedList<string> wordList;
     
