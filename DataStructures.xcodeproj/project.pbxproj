@@ -55,6 +55,7 @@
 		7BD10D37204742E3009542AC /* TestingStacksAndQueues.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestingStacksAndQueues.hpp; sourceTree = "<group>"; };
 		7BD10D3920474552009542AC /* Timer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
 		7BD10D3A20474552009542AC /* Timer.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Timer.hpp; sourceTree = "<group>"; };
+		7BD6BE1820939F6F00D4638F /* HashNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HashNode.h; sourceTree = "<group>"; };
 		7BDC211220448FA400270650 /* DoubleNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleNode.h; sourceTree = "<group>"; };
 		7BDC211420449ACE00270650 /* CircularList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircularList.h; sourceTree = "<group>"; };
 		7BDC21152044A61000270650 /* Stack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stack.h; sourceTree = "<group>"; };
@@ -232,6 +233,7 @@
 				7BDC211220448FA400270650 /* DoubleNode.h */,
 				7BA36B85206AC04600149E9D /* BinaryTreeNode.h */,
 				7BED5AC5208E50FD0002A1E7 /* N_AryTreeNode.h */,
+				7BD6BE1820939F6F00D4638F /* HashNode.h */,
 			);
 			path = Nodes;
 			sourceTree = "<group>";
