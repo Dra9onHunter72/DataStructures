@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B169BC420B7477B0061F3DE /* LinkedListTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B169BC320B7477B0061F3DE /* LinkedListTester.cpp */; };
 		7B8C27A2204DC56A00129D6F /* RecursionTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7B8C27A0204DC56A00129D6F /* RecursionTester.cpp */; };
 		7BA36B88206ACA3A00149E9D /* BinaryTreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BA36B86206ACA3A00149E9D /* BinaryTreeTester.cpp */; };
 		7BC08E2B2065732B00493307 /* GraphTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7BC08E2A2065732B00493307 /* GraphTester.cpp */; };
@@ -37,6 +38,7 @@
 		7B092905206036470078EBE0 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
 		7B140D59203CAB25005C50EA /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		7B140D5A203CBBEB005C50EA /* LinkedListTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LinkedListTester.h; sourceTree = "<group>"; };
+		7B169BC320B7477B0061F3DE /* LinkedListTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTester.cpp; sourceTree = "<group>"; };
 		7B25CC5D2034B99100F99B15 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		7B4B6D48202CE26200DB5199 /* AbstractBase.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AbstractBase.hpp; sourceTree = "<group>"; };
 		7B8191F2206D60A00036C426 /* BinarySearchTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinarySearchTree.h; sourceTree = "<group>"; };
@@ -212,6 +214,7 @@
 			children = (
 				7BF727A8202A33B600FE3AFE /* ArrayTester.cpp */,
 				7BF727A9202A33B600FE3AFE /* ArrayTester.hpp */,
+				7B169BC320B7477B0061F3DE /* LinkedListTester.cpp */,
 				7B140D5A203CBBEB005C50EA /* LinkedListTester.h */,
 				7BD10D36204742E3009542AC /* TestingStacksAndQueues.cpp */,
 				7BD10D37204742E3009542AC /* TestingStacksAndQueues.hpp */,
@@ -300,6 +303,7 @@
 				7BDD6A4D202250160022239B /* CrimeData.cpp in Sources */,
 				7BD10D38204742E3009542AC /* TestingStacksAndQueues.cpp in Sources */,
 				7BDD6A51202253AD0022239B /* FileController.cpp in Sources */,
+				7B169BC420B7477B0061F3DE /* LinkedListTester.cpp in Sources */,
 				7BC08E2B2065732B00493307 /* GraphTester.cpp in Sources */,
 				7BC4205B205AE96500AC47B6 /* SortingTester.cpp in Sources */,
 				7BA36B88206ACA3A00149E9D /* BinaryTreeTester.cpp in Sources */,
